@@ -1,8 +1,5 @@
-export function test(state = {}, action) {
+export function newReducer(state = {}, action) {
   switch (action.type) {
-    case "GET_DATA":
-      return action.payload;
-    break;
     case "GET_VALUE":
       return action.payload;
     break;
